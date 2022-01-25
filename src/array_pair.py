@@ -53,42 +53,6 @@ def array_pair(arr, n):
     return count
 
 
-def array_pair_central(arr, n):
-    """
-    This function gives the number of pair of elements of an array
-    :param n: length of array
-    :param arr: the array
-    :return: count of pairs
-    """
-    result = 0
-    i = 1
-    while i < n - 1:
-        l_count = 0
-        r_count = 0
-        j = i - 1
-        while j >= 0:
-            if arr[i] >= arr[j]:
-                l_count += 1
-            else:
-                break
-            j -= 1
-        j = i + 1
-        while j < n:
-            if arr[i] >= arr[j]:
-                r_count += 1
-            else:
-                break
-            j += 1
-        if l_count * r_count == 0 and l_count + r_count != 0:
-            l_count = l_count + 1 if l_count == 0 else l_count
-            r_count = r_count + 1 if r_count == 0 else r_count
-            result += (l_count * r_count)
-        else:
-            result += (l_count * r_count) + 1
-        i += 1
-    return result
-
-
 def solve():
     """
     The solution of the program
@@ -105,7 +69,7 @@ def solve():
         # for _ in range(n):
         arr = list(map(int, f.readline().rstrip().split()))
 
-        result = array_pair_central(arr, n)
+        result = array_pair(arr, n)
         print(result)
 
         if result != op.o_p:
