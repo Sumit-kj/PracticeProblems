@@ -19,11 +19,6 @@ def array_pair_basic(arr):
         j = i + 1
         while j < n:
             max_a = max(arr[i:j+1])
-            # k = i
-            # while k <= j:
-            #     if arr[k] >= max_a:
-            #         max_a = arr[k]
-            #     k += 1
             if arr[i] * arr[j] <= max_a:
                 result += 1
             j += 1
