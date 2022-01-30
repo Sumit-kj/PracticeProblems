@@ -21,7 +21,7 @@ def minimum_absolute_difference(arr):
     return min_diff
 
 
-if __name__ == '__main__':
+def solve():
     """
     The solution of the program
     :return: None
@@ -29,6 +29,7 @@ if __name__ == '__main__':
     n = ip.n
     l = ip.arr
     result = minimum_absolute_difference(l)
+    print(result)
 
     if result != op.o_p:
         print()
