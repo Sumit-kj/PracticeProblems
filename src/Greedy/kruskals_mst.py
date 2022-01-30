@@ -43,7 +43,7 @@ def kruskals_mst(arr, n):
             parent[u[i]] = v[i]
             result.append((u[i], v[i]))
             number_of_edges += 1
-            cost += w[i]
+            cost += weight
     return result, cost
 
 
