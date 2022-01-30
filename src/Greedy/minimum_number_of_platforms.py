@@ -13,8 +13,7 @@ dep[] = {9:10, 12:00}
 Output: 1
 Explanation: Only one platform is needed.
 """
-from src.res.minimum_number_of_platforms import input as ip
-from src.res.minimum_number_of_platforms import output as op
+from src.res.Greedy.minimum_number_of_platforms import input as ip, output as op
 import time
 
 

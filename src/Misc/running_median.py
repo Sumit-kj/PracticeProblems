@@ -15,7 +15,7 @@ Print the updated median on a new line. The printed value must be a double-preci
 (i.e., 12.3 format).
 """
 import os
-from src.res.running_median import output as op
+from src.res.Misc.running_median import output as op
 
 
 def solution(a):
@@ -112,7 +112,7 @@ def solve():
     :return: None
     """
     script_dir = os.path.dirname(__file__)
-    rel_path = "../res/running_median/input.txt"
+    rel_path = "../res/Misc/running_median/input.txt"
     abs_file_path = os.path.join(script_dir, rel_path)
     with open(abs_file_path) as f:
         a_count = int(f.readline().strip())

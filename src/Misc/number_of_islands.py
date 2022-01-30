@@ -9,8 +9,7 @@ Input : mat[][] = {{1, 1, 0, 0, 0},
                    {1, 0, 1, 0, 1}}
 Output : 5
 """
-from src.res.number_of_islands import input as ip
-from src.res.number_of_islands import output as op
+from src.res.Misc.number_of_islands import input as ip, output as op
 
 
 def solve():

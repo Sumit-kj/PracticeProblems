@@ -17,9 +17,7 @@ maximum set of activities that can be executed
 is {0, 1, 3, 4} [ These are indexes in start[] and
 finish[] ]
 """
-import os
-from src.res.activity_selection import output as op
-from src.res.activity_selection import input as ip
+from src.res.Greedy.activity_selection import output as op, input as ip
 
 
 def solve():

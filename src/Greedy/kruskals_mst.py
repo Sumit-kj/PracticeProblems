@@ -3,7 +3,7 @@ all the vertices together. A single graph can have many spanning trees. A minimu
 minimum weight spanning tree for a weighted, connected, undirected graph is a spanning tree with a weight less than
 or equal to the weight of every other spanning tree. The weight of a spanning tree is the sum of weights given to
 each edge of the spanning tree. """
-from src.res.kruskals_mst import input as ip
+from src.res.Greedy.kruskals_mst import input as ip
 
 
 def solve():

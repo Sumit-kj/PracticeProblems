@@ -11,8 +11,7 @@ Input: V = 121
 Output: 3
 We need a 100 Rs note, a 20 Rs note and a 1 Rs coin.
 """
-from src.res.minimum_number_of_coins import input as ip
-from src.res.minimum_number_of_coins import output as op
+from src.res.Greedy.minimum_number_of_coins import input as ip, output as op
 
 
 def solve():

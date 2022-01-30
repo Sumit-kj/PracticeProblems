@@ -3,7 +3,7 @@ Consider an array of n integers, A = {a1, a2, ..., an}. Find and print the total
 ai x aj <= max(ai, ai+1, ..., aj)where i<j.
 """
 import os
-from src.res.array_pair import output as op
+from src.res.Misc.array_pair import output as op
 
 
 def array_pair_basic(arr):
@@ -54,7 +54,7 @@ def solve():
     :return: None
     """
     script_dir = os.path.dirname(__file__)
-    rel_path = "../res/array_pair/input.txt"
+    rel_path = "../res/Misc/array_pair/input.txt"
     abs_file_path = os.path.join(script_dir, rel_path)
     with open(abs_file_path) as f:
         n = int(f.readline().strip())

@@ -13,7 +13,7 @@ Help Tieu achieve the minimum average waiting time. For the sake of simplicity, 
 minimum average waiting time.
 """
 import os
-from src.res.minimum_average import output as op
+from src.res.Misc.minimum_average import output as op
 
 
 def minimum_average(customers):
@@ -32,7 +32,7 @@ def solve():
     :return: None
     """
     script_dir = os.path.dirname(__file__)
-    rel_path = "../res/minimum_average/input.txt"
+    rel_path = "../res/Misc/minimum_average/input.txt"
     abs_file_path = os.path.join(script_dir, rel_path)
     with open(abs_file_path) as f:
         n = int(f.readline().strip())
