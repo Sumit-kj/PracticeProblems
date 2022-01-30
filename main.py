@@ -2,6 +2,7 @@ from src import running_median
 from src import minimum_average
 from src import array_pair
 from src.Greedy import activity_selection
+from src.Greedy import kruskals_mst
 
 
 if __name__ == '__main__':
@@ -11,5 +12,6 @@ if __name__ == '__main__':
     # minimum_average.solve()
 
     """Greedy Solutions"""
-    activity_selection.solve()
+    # activity_selection.solve()
+    kruskals_mst.solve()
 
