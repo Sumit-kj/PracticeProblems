@@ -112,7 +112,7 @@ def solve():
     :return: None
     """
     script_dir = os.path.dirname(__file__)
-    rel_path = "res/running_median/input.txt"
+    rel_path = "../res/running_median/input.txt"
     abs_file_path = os.path.join(script_dir, rel_path)
     with open(abs_file_path) as f:
         a_count = int(f.readline().strip())
