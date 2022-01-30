@@ -5,6 +5,7 @@ from src.Greedy import activity_selection
 from src.Greedy import kruskals_mst
 from src.Misc import number_of_islands
 from src.Greedy import minimum_number_of_coins
+from src.Greedy import minimum_number_of_platforms
 
 
 if __name__ == '__main__':
@@ -16,7 +17,8 @@ if __name__ == '__main__':
     """Greedy Solutions"""
     # activity_selection.solve()
     # kruskals_mst.solve()
-    minimum_number_of_coins.solve()
+    # minimum_number_of_coins.solve()
+    minimum_number_of_platforms.solve()
 
     """Miscellaneous"""
     # number_of_islands.solve()
