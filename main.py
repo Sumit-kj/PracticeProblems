@@ -9,6 +9,7 @@ from src.Greedy import minimum_number_of_platforms
 from src.Greedy import minimum_absolute_difference
 from src.Greedy import marc_cakewalk
 from src.Greedy import grid_challenge
+from src.Misc import trapping_rain_water
 
 
 if __name__ == '__main__':
@@ -24,7 +25,8 @@ if __name__ == '__main__':
     # minimum_number_of_platforms.solve()
     # minimum_absolute_difference.solve()
     # marc_cakewalk.solve()
-    grid_challenge.solve()
+    # grid_challenge.solve()
 
     """Miscellaneous"""
     # number_of_islands.solve()
+    trapping_rain_water.solve()
