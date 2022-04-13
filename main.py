@@ -10,6 +10,7 @@ from src.Greedy import minimum_absolute_difference
 from src.Greedy import marc_cakewalk
 from src.Greedy import grid_challenge
 from src.Misc import trapping_rain_water
+from src.Practice.Sorting import merge_sort
 
 
 if __name__ == '__main__':
@@ -29,4 +30,7 @@ if __name__ == '__main__':
 
     """Miscellaneous"""
     # number_of_islands.solve()
-    trapping_rain_water.solve()
+    # trapping_rain_water.solve()
+
+    """Practice"""
+    merge_sort.solve()
