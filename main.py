@@ -12,6 +12,7 @@ from src.Greedy import grid_challenge
 from src.Misc import trapping_rain_water
 from src.Practice.Sorting import merge_sort
 from src.Practice.Sorting import quick_sort
+from src.Practice.Trees import tree_creation
 
 
 if __name__ == '__main__':
@@ -35,4 +36,5 @@ if __name__ == '__main__':
 
     """Practice"""
     # merge_sort.solve()
-    quick_sort.solve()
+    # quick_sort.solve()
+    tree_creation.create_tree()
