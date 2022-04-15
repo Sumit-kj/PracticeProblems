@@ -9,4 +9,4 @@ def create_tree():
 
     root_node.set_children([node_1, node_2, node_3])
 
-    print(root_node)
+    return root_node
