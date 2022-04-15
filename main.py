@@ -14,6 +14,7 @@ from src.Practice.Sorting import merge_sort
 from src.Practice.Sorting import quick_sort
 from src.Practice.Trees import tree_creation
 from src.Practice.Trees import binary_tree_creation
+from src.Practice.Trees import bfs_traversal
 
 
 if __name__ == '__main__':
@@ -39,4 +40,5 @@ if __name__ == '__main__':
     # merge_sort.solve()
     # quick_sort.solve()
     # tree_creation.create_tree()
-    binary_tree_creation.create_tree()
+    # binary_tree_creation.create_tree()
+    bfs_traversal.breadth_first_search_traversal()
