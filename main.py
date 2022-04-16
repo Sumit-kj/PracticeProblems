@@ -16,6 +16,9 @@ from src.Practice.Trees import tree_creation
 from src.Practice.Trees import binary_tree_creation
 from src.Practice.Trees import bfs_traversal
 from src.Practice.Trees import dfs_traversal
+from src.Practice.Trees import preorder_traversal
+from src.Practice.Trees import inorder_traversal
+from src.Practice.Trees import postorder_traversal
 
 
 if __name__ == '__main__':
@@ -43,4 +46,7 @@ if __name__ == '__main__':
     # tree_creation.create_tree()
     # binary_tree_creation.create_tree()
     # bfs_traversal.breadth_first_search_traversal()
-    dfs_traversal.depth_first_search_traversal()
+    # dfs_traversal.depth_first_search_traversal()
+    preorder_traversal.preorder_traversal()
+    inorder_traversal.inorder_traversal()
+    postorder_traversal.postorder_traversal()
