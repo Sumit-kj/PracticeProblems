@@ -19,6 +19,8 @@ from src.Practice.Trees import dfs_traversal
 from src.Practice.Trees import preorder_traversal
 from src.Practice.Trees import inorder_traversal
 from src.Practice.Trees import postorder_traversal
+from src.Practice.Trees import binary_tree_diameter
+from src.Practice.Trees import binary_sum_tree
 
 
 if __name__ == '__main__':
@@ -47,6 +49,8 @@ if __name__ == '__main__':
     # binary_tree_creation.create_tree()
     # bfs_traversal.breadth_first_search_traversal()
     # dfs_traversal.depth_first_search_traversal()
-    preorder_traversal.preorder_traversal()
-    inorder_traversal.inorder_traversal()
-    postorder_traversal.postorder_traversal()
+    # preorder_traversal.preorder_traversal()
+    # inorder_traversal.inorder_traversal()
+    # postorder_traversal.postorder_traversal()
+    binary_tree_diameter.binary_tree_diameter()
+    # binary_sum_tree.binary_sum_trees()
