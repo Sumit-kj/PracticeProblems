@@ -26,7 +26,7 @@ def longest_increasing_subsequence_dp(arr):
     """
     This function finds the longest increasing subsequence in a list
     :param arr: The list
-    :return: length of longest increasing subsequence
+    :return: length of the longest increasing subsequence
     """
     LIS = [1] * len(arr)
 

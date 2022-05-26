@@ -22,6 +22,7 @@ from src.Practice.Trees import postorder_traversal
 from src.Practice.Trees import binary_tree_diameter
 from src.Practice.Trees import binary_sum_tree
 from src.DynamicProgramming import longest_increasing_subsequence
+from src.DynamicProgramming import longest_common_subsequence
 
 
 if __name__ == '__main__':
@@ -57,4 +58,5 @@ if __name__ == '__main__':
     # binary_sum_tree.binary_sum_trees()
 
     """Dynamic Programming"""
-    longest_increasing_subsequence.solve()
+    # longest_increasing_subsequence.solve()
+    longest_common_subsequence.solve()
