@@ -51,7 +51,7 @@ def longest_common_subsequence_dp(str1, str2, i1, i2):
     :return: The length of the longest common subsequence
     """
 
-    dp = [[-1 for _ in range(i1 + 1)] for _ in range(i2 + 1)]
+    dp = [[-1 for _ in range(i2 + 1)] for _ in range(i1 + 1)]
     for i in range(i1 + 1):
         for j in range(i2 + 1):
             if i == 0 or j == 0:

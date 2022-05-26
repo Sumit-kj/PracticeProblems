@@ -23,6 +23,7 @@ from src.Practice.Trees import binary_tree_diameter
 from src.Practice.Trees import binary_sum_tree
 from src.DynamicProgramming import longest_increasing_subsequence
 from src.DynamicProgramming import longest_common_subsequence
+from src.DynamicProgramming import edit_distance
 
 
 if __name__ == '__main__':
@@ -59,4 +60,5 @@ if __name__ == '__main__':
 
     """Dynamic Programming"""
     # longest_increasing_subsequence.solve()
-    longest_common_subsequence.solve()
+    # longest_common_subsequence.solve()
+    edit_distance.solve()
