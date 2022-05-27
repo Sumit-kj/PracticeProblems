@@ -25,6 +25,7 @@ from src.DynamicProgramming import longest_increasing_subsequence
 from src.DynamicProgramming import longest_common_subsequence
 from src.DynamicProgramming import edit_distance
 from src.DynamicProgramming import minimum_cost_path
+from src.DynamicProgramming import coin_change
 
 
 if __name__ == '__main__':
@@ -63,4 +64,5 @@ if __name__ == '__main__':
     # longest_increasing_subsequence.solve()
     # longest_common_subsequence.solve()
     # edit_distance.solve()
-    minimum_cost_path.solve()
+    # minimum_cost_path.solve()
+    coin_change.solve()
