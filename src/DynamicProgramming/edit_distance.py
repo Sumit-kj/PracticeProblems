@@ -32,7 +32,7 @@ def solve():
     arr = ip.i_p
     str1 = arr[0]
     str2 = arr[1]
-    result = edit_distance(str1, str2, len(str1), len(str2))
+    result = edit_distance_dp(str1, str2, len(str1), len(str2))
     print(result)
 
     if result != op.o_p:
@@ -42,7 +42,7 @@ def solve():
         print('Your output:', result)
 
 
-def edit_distance(str1, str2, i1, i2):
+def edit_distance_dp(str1, str2, i1, i2):
     dp = [[-1 for _ in range(i2 + 1)] for _ in range(i1 + 1)]
     for i in range(i1 + 1):
         for j in range(i2 + 1):
