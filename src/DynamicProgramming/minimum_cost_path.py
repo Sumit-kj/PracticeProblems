@@ -62,7 +62,7 @@ def minimum_cost_path(arr, src_i, src_j, dest_i, dest_j, max_cost):
 
 def minimum_cost_path_dp(arr, src_i, src_j, dest_i, dest_j, max_cost):
     """
-    This function calculates the minimum cost to traverse from source to destination recursively
+    This function calculates the minimum cost to traverse from source to destination
     :param arr: The cost matrix
     :param src_i: source i index
     :param src_j: source j index
@@ -71,7 +71,7 @@ def minimum_cost_path_dp(arr, src_i, src_j, dest_i, dest_j, max_cost):
     :param max_cost: maximum cost in entire cost matrix
     :return: The minimum cost for the path
     """
-    dp = [[max for _ in range(len(arr[0])+1)] for _ in range(len(arr)+1)]
+    dp = [[max_cost for _ in range(len(arr[0])+1)] for _ in range(len(arr)+1)]
     for i in range(len(dp)):
         for j in range(len(dp[0])):
             if i == 0 and j == 0:
