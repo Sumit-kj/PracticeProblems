@@ -26,6 +26,9 @@ from src.DynamicProgramming import longest_common_subsequence
 from src.DynamicProgramming import edit_distance
 from src.DynamicProgramming import minimum_cost_path
 from src.DynamicProgramming import coin_change
+from src.DynamicProgramming import rod_cutting
+from src.DynamicProgramming import fibonacci
+from src.Implementation import taum_and_bday
 
 
 if __name__ == '__main__':
@@ -65,4 +68,10 @@ if __name__ == '__main__':
     # longest_common_subsequence.solve()
     # edit_distance.solve()
     # minimum_cost_path.solve()
-    coin_change.solve()
+    # coin_change.solve()
+    # rod_cutting.solve()
+    fibonacci.solve()
+
+
+    """Implementation"""
+    # taum_and_bday.solve()
