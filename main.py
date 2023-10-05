@@ -28,6 +28,7 @@ from src.DynamicProgramming import minimum_cost_path
 from src.DynamicProgramming import coin_change
 from src.DynamicProgramming import rod_cutting
 from src.DynamicProgramming import fibonacci
+from src.DynamicProgramming import nth_catalan
 from src.Implementation import taum_and_bday
 
 
@@ -70,8 +71,8 @@ if __name__ == '__main__':
     # minimum_cost_path.solve()
     # coin_change.solve()
     # rod_cutting.solve()
-    fibonacci.solve()
-
+    # fibonacci.solve()
+    nth_catalan.solve()
 
     """Implementation"""
     # taum_and_bday.solve()
