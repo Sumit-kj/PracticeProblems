@@ -13,12 +13,9 @@ def solve():
     results = []
 
     for n in arr:
-        if n == 0 or n == 1:
-            results.append(n)
-        else:
-            fib_list = [-1] * (n + 1)
-            fib_list[0], fib_list[1] = 0, 1
-            results.append(fibonacci(n, fib_list))
+        fib_list = [-1] * (n + 1)
+        fib_list[0], fib_list[1] = 0, 1
+        results.append(fibonacci(n, fib_list))
     print(results)
 
     if results != op.o_p:
@@ -31,6 +28,9 @@ def solve():
 def fibonacci(n, fib_list):
     """
     This function calculates and returns nth number ijn fibonacci series
+    :args n: The index in fibonacci series to be calculated
+    :args fib_list: The memoization list of fibonacci series
+    :return: The nth fibonacci number
     """
     if fib_list[n] == -1:
         return fibonacci(n-1, fib_list) + fibonacci(n-2, fib_list)
