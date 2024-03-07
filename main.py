@@ -31,9 +31,12 @@ from src.DynamicProgramming import fibonacci
 from src.DynamicProgramming import nth_catalan
 from src.DynamicProgramming import bell_number
 from src.Implementation import taum_and_bday
-
+from src.Array import largest_three_distinct_elements
 
 if __name__ == '__main__':
+    """Array"""
+    largest_three_distinct_elements.solve()
+
     """src solutions"""
     # running_median.solve()
     # array_pair.solve()
@@ -69,7 +72,7 @@ if __name__ == '__main__':
     # longest_increasing_subsequence.solve()
     # longest_common_subsequence.solve()
     # edit_distance.solve()
-    minimum_cost_path.solve()
+    # minimum_cost_path.solve()
     # coin_change.solve()
     # rod_cutting.solve()
     # fibonacci.solve()
