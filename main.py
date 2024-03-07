@@ -29,6 +29,7 @@ from src.DynamicProgramming import coin_change
 from src.DynamicProgramming import rod_cutting
 from src.DynamicProgramming import fibonacci
 from src.DynamicProgramming import nth_catalan
+from src.DynamicProgramming import bell_number
 from src.Implementation import taum_and_bday
 
 
@@ -68,11 +69,12 @@ if __name__ == '__main__':
     # longest_increasing_subsequence.solve()
     # longest_common_subsequence.solve()
     # edit_distance.solve()
-    # minimum_cost_path.solve()
+    minimum_cost_path.solve()
     # coin_change.solve()
     # rod_cutting.solve()
     # fibonacci.solve()
-    nth_catalan.solve()
+    # nth_catalan.solve()
+    # bell_number.solve()
 
     """Implementation"""
     # taum_and_bday.solve()
