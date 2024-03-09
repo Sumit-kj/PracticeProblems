@@ -35,13 +35,15 @@ from src.Array import largest_three_distinct_elements
 from src.Array import second_largest_element
 from src.Array import move_zeroes_to_end
 from src.Array import even_position_greater_than_odd
+from src.Array import segregate_even_odd
 
 if __name__ == '__main__':
     """Array"""
     # largest_three_distinct_elements.solve()
     # second_largest_element.solve()
     # move_zeroes_to_end.solve()
-    even_position_greater_than_odd.solve()
+    # even_position_greater_than_odd.solve()
+    segregate_even_odd.solve()
 
     """src solutions"""
     # running_median.solve()
