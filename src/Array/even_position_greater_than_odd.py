@@ -31,7 +31,8 @@ def solve():
     results = []
 
     for n in arr:
-        results.append(even_position_greater_than_odd(n))
+        # results.append(even_position_greater_than_odd(n))
+        results.append(even_position_greater_than_odd_linear(n))
     print(results)
 
     if results != op.o_p:
