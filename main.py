@@ -33,11 +33,13 @@ from src.DynamicProgramming import bell_number
 from src.Implementation import taum_and_bday
 from src.Array import largest_three_distinct_elements
 from src.Array import second_largest_element
+from src.Array import move_zeroes_to_end
 
 if __name__ == '__main__':
     """Array"""
     # largest_three_distinct_elements.solve()
-    second_largest_element.solve()
+    # second_largest_element.solve()
+    move_zeroes_to_end.solve()
 
     """src solutions"""
     # running_median.solve()
