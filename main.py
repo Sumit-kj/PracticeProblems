@@ -37,6 +37,7 @@ from src.Array import move_zeroes_to_end
 from src.Array import even_position_greater_than_odd
 from src.Array import segregate_even_odd
 from src.Array import array_rotation_reversal_approach
+from src.Array import number_of_triangles
 
 if __name__ == '__main__':
     """Array"""
@@ -45,7 +46,8 @@ if __name__ == '__main__':
     # move_zeroes_to_end.solve()
     # even_position_greater_than_odd.solve()
     # segregate_even_odd.solve()
-    array_rotation_reversal_approach.solve()
+    # array_rotation_reversal_approach.solve()
+    number_of_triangles.solve()
 
     """src solutions"""
     # running_median.solve()
