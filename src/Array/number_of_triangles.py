@@ -77,14 +77,14 @@ def number_of_triangles_two_pointer(arr):
     """
     arr.sort()
     arr_len = len(arr)
-    i, count = 0, 0
-    while i < arr_len - 2:
-        j = i + 1
-        k = arr_len - 1
+    i, count = arr_len - 1, 0
+    while i > 1:
+        j, k = 0, i - 1
         while j < k:
-            if arr[i] + arr[j] <= arr[k]:
-                j += 1
+            if arr[j] + arr[k] > arr[i]:
+                count += k - j
+                k -= 1
             else:
-                count += arr_len - j - 1
-        i += 1
+                j += 1
+        i -= 1
     return count
