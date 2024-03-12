@@ -41,6 +41,7 @@ from src.Array import number_of_triangles
 from src.Array import one_occurrence_element
 from src.Array import leader_in_a_list
 from src.Array import subarray_with_given_sum
+from src.Array import reorganize_the_array
 
 if __name__ == '__main__':
     """Array"""
@@ -53,7 +54,8 @@ if __name__ == '__main__':
     # number_of_triangles.solve()
     # one_occurrence_element.solve()
     # leader_in_a_list.solve()
-    subarray_with_given_sum.solve()
+    # subarray_with_given_sum.solve()
+    reorganize_the_array.solve()
 
     """src solutions"""
     # running_median.solve()

@@ -4,7 +4,7 @@ Total Problems Solved:
 
 | Topic            | Number of Problems |
 |------------------|--------------------|
-| Array            | 10                 |
+| Array            | 11                 |
 | DP               | 9                  |
 | Greedy           | 7                  |
 | Implementation   | 2                  |
