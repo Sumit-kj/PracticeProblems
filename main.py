@@ -39,6 +39,7 @@ from src.Array import segregate_even_odd
 from src.Array import array_rotation_reversal_approach
 from src.Array import number_of_triangles
 from src.Array import one_occurrence_element
+from src.Array import leader_in_a_list
 
 if __name__ == '__main__':
     """Array"""
@@ -49,7 +50,8 @@ if __name__ == '__main__':
     # segregate_even_odd.solve()
     # array_rotation_reversal_approach.solve()
     # number_of_triangles.solve()
-    one_occurrence_element.solve()
+    # one_occurrence_element.solve()
+    leader_in_a_list.solve()
 
     """src solutions"""
     # running_median.solve()
