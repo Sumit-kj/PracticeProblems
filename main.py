@@ -42,6 +42,9 @@ from src.Array import one_occurrence_element
 from src.Array import leader_in_a_list
 from src.Array import subarray_with_given_sum
 from src.Array import reorganize_the_array
+from src.Array import rearrange_positive_negative
+from src.Array import valid_sudoku
+from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
     """Array"""
@@ -55,7 +58,12 @@ if __name__ == '__main__':
     # one_occurrence_element.solve()
     # leader_in_a_list.solve()
     # subarray_with_given_sum.solve()
-    reorganize_the_array.solve()
+    # reorganize_the_array.solve()
+    # rearrange_positive_negative.solve()
+    valid_sudoku.solve()
+
+    """String"""
+    # largest_substring_non_repeating.solve()
 
     """src solutions"""
     # running_median.solve()
