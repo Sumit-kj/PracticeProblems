@@ -45,6 +45,7 @@ from src.Array import reorganize_the_array
 from src.Array import rearrange_positive_negative
 from src.Array import valid_sudoku
 from src.Array import sorted_square_sorted
+from src.Array import three_sum_zero
 from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
@@ -62,7 +63,8 @@ if __name__ == '__main__':
     # reorganize_the_array.solve()
     # rearrange_positive_negative.solve()
     # valid_sudoku.solve()
-    sorted_square_sorted.solve()
+    # sorted_square_sorted.solve()
+    three_sum_zero.solve()
 
     """String"""
     # largest_substring_non_repeating.solve()
@@ -110,4 +112,4 @@ if __name__ == '__main__':
     # bell_number.solve()
 
     """Implementation"""
-    # taum_and_bday.solve()
+    # taum_and_bday.solve()\
