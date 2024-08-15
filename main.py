@@ -44,6 +44,7 @@ from src.Array import subarray_with_given_sum
 from src.Array import reorganize_the_array
 from src.Array import rearrange_positive_negative
 from src.Array import valid_sudoku
+from src.Array import sorted_square_sorted
 from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
@@ -60,7 +61,8 @@ if __name__ == '__main__':
     # subarray_with_given_sum.solve()
     # reorganize_the_array.solve()
     # rearrange_positive_negative.solve()
-    valid_sudoku.solve()
+    # valid_sudoku.solve()
+    sorted_square_sorted.solve()
 
     """String"""
     # largest_substring_non_repeating.solve()

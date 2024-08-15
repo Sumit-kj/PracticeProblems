@@ -4,10 +4,10 @@ Total Problems Solved:
 
 | Topic            | Number of Problems |
 |------------------|--------------------|
-| Array            | 12                 |
+| Array            | 14                 |
 | DP               | 9                  |
 | Greedy           | 7                  |
 | Implementation   | 2                  |
 | Misc             | 6                  |
 | Practice.Sorting | 2                  |
-| Practice.Trees   | 12                 |
+| Practice.Trees   | 13                 |
