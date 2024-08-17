@@ -48,6 +48,7 @@ from src.Array import sorted_square_sorted
 from src.Array import three_sum_zero
 from src.Array import container_with_most_water
 from src.Stack import baseball_game
+from src.Stack import valid_parentheses
 from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
@@ -70,7 +71,8 @@ if __name__ == '__main__':
     # container_with_most_water.solve()
 
     """Stack"""
-    baseball_game.solve()
+    # baseball_game.solve()
+    valid_parentheses.solve()
 
     """String"""
     # largest_substring_non_repeating.solve()
