@@ -47,6 +47,7 @@ from src.Array import valid_sudoku
 from src.Array import sorted_square_sorted
 from src.Array import three_sum_zero
 from src.Array import container_with_most_water
+from src.Stack import baseball_game
 from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
@@ -66,7 +67,10 @@ if __name__ == '__main__':
     # valid_sudoku.solve()
     # sorted_square_sorted.solve()
     # three_sum_zero.solve()
-    container_with_most_water.solve()
+    # container_with_most_water.solve()
+
+    """Stack"""
+    baseball_game.solve()
 
     """String"""
     # largest_substring_non_repeating.solve()
