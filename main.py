@@ -51,6 +51,7 @@ from src.Stack import baseball_game
 from src.Stack import valid_parentheses
 from src.Stack import evaluate_reverse_polish_notation
 from src.Stack import daily_temperatures
+from src.Stack import min_stack_implementation
 from src.String import largest_substring_non_repeating
 
 if __name__ == '__main__':
@@ -76,7 +77,8 @@ if __name__ == '__main__':
     # baseball_game.solve()
     # valid_parentheses.solve()
     # evaluate_reverse_polish_notation.solve()
-    daily_temperatures.solve()
+    # daily_temperatures.solve()
+    min_stack_implementation.solve()
 
     """String"""
     # largest_substring_non_repeating.solve()
