@@ -5,7 +5,7 @@ Total Problems Solved:
 | Topic            | Number of Problems |
 |------------------|--------------------|
 | Array            | 16                 |
-| Stack            | 3                  |
+| Stack            | 4                  |
 | DP               | 9                  |
 | Greedy           | 7                  |
 | Implementation   | 2                  |
