@@ -28,7 +28,8 @@ def solve():
     results = []
 
     for n in arr:
-        results.append(search_sorted_2d_array(n[0], n[1]))
+        # results.append(search_sorted_2d_array(n[0], n[1]))
+        results.append(search_sorted_2d_array_binary(n[0], n[1]))
     print(results)
 
     if results != op.o_p:
@@ -40,7 +41,7 @@ def solve():
 
 def search_sorted_2d_array(matrix, target):
     """
-    This function implements binary search in 2d Array.
+    This function implements search in 2d Array.
     Args:
         matrix: The 2D Array
         target: The target to be found
@@ -54,4 +55,33 @@ def search_sorted_2d_array(matrix, target):
         j += 1
     if i < len(matrix) and j < len(matrix[i]) and matrix[i][j] == target:
         return True
+    return False
+
+
+def search_sorted_2d_array_binary(matrix, target):
+    """
+    This function implements binary search in 2d Array.
+    Args:
+        matrix: The 2D Array
+        target: The target to be found
+    Returns: True if target is present in the 2D array, otherwise False
+    """
+    r_l, r_h, c_l, c_h = 0, len(matrix) - 1, 0, len(matrix[0]) - 1
+    r_mid, c_mid = (len(matrix) - 1) //2, (len(matrix[0]) - 1) //2
+    while r_l <= r_h:
+        r_mid = (r_l + r_h) // 2
+        if matrix[r_mid][0] <= target <= matrix[r_mid][-1]:
+            break
+        elif matrix[r_mid][0] > target:
+            r_h = r_mid - 1
+        elif matrix[r_mid][-1] < target:
+            r_l = r_mid + 1
+    while c_l <= c_h:
+        c_mid = (c_l + c_h) // 2
+        if matrix[r_mid][c_mid] == target:
+            return True
+        elif matrix[r_mid][c_mid] > target:
+            c_h = c_mid - 1
+        elif matrix[r_mid][c_mid] < target:
+            c_l = c_mid + 1
     return False
