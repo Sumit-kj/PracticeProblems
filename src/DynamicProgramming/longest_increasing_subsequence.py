@@ -11,15 +11,17 @@ def solve():
     The solution of the program
     :return: None
     """
-    arr = ip.i_p
-    result = longest_increasing_subsequence_dp(arr)
-    print(result)
+    i_p = ip.i_p
+    results = []
+    for arr in i_p:
+        results = longest_increasing_subsequence_dp(arr)
+    print(results)
 
-    if result != op.o_p:
+    if results != op.o_p:
         print()
         print('Wrong answer')
         print('Expected output:', op.o_p)
-        print('Your output:', result)
+        print('Your output:', results)
 
 
 def longest_increasing_subsequence_dp(arr):
@@ -28,11 +30,11 @@ def longest_increasing_subsequence_dp(arr):
     :param arr: The list
     :return: length of the longest increasing subsequence
     """
-    LIS = [1] * len(arr)
+    lis = [1] * len(arr)
 
     for i in range(len(arr) - 1, -1, -1):
         for j in range(i+1, len(arr)):
             if arr[i] < arr[j]:
-                LIS[i] = max(LIS[i], 1 + LIS[j])
-    return max(LIS)
+                lis[i] = max(lis[i], 1 + lis[j])
+    return max(lis)
 

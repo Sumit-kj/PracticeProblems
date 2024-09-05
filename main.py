@@ -75,7 +75,7 @@ if __name__ == '__main__':
     # sorted_square_sorted.solve()
     # three_sum_zero.solve()
     # container_with_most_water.solve()
-    search_sorted_2d_array.solve()
+    # search_sorted_2d_array.solve()
 
     """Stack"""
     # baseball_game.solve()
@@ -119,7 +119,7 @@ if __name__ == '__main__':
     # binary_sum_tree.binary_sum_trees()
 
     """Dynamic Programming"""
-    # longest_increasing_subsequence.solve()
+    longest_increasing_subsequence.solve()
     # longest_common_subsequence.solve()
     # edit_distance.solve()
     # minimum_cost_path.solve()
