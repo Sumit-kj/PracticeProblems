@@ -32,6 +32,7 @@ from src.DynamicProgramming import rod_cutting
 from src.DynamicProgramming import fibonacci
 from src.DynamicProgramming import nth_catalan
 from src.DynamicProgramming import bell_number
+from src.DynamicProgramming import longest_palindromic_substring
 from src.Implementation import taum_and_bday
 from src.Array import largest_three_distinct_elements
 from src.Array import second_largest_element
@@ -119,7 +120,7 @@ if __name__ == '__main__':
     # binary_sum_tree.binary_sum_trees()
 
     """Dynamic Programming"""
-    longest_increasing_subsequence.solve()
+    # longest_increasing_subsequence.solve()
     # longest_common_subsequence.solve()
     # edit_distance.solve()
     # minimum_cost_path.solve()
@@ -128,6 +129,7 @@ if __name__ == '__main__':
     # fibonacci.solve()
     # nth_catalan.solve()
     # bell_number.solve()
+    longest_palindromic_substring.solve()
 
     """Implementation"""
     # taum_and_bday.solve()\
