@@ -51,6 +51,7 @@ from src.Array import sorted_square_sorted
 from src.Array import three_sum_zero
 from src.Array import container_with_most_water
 from src.Array import search_sorted_2d_array
+from src.Array import remove_element
 from src.Stack import baseball_game
 from src.Stack import valid_parentheses
 from src.Stack import evaluate_reverse_polish_notation
@@ -77,6 +78,7 @@ if __name__ == '__main__':
     # three_sum_zero.solve()
     # container_with_most_water.solve()
     # search_sorted_2d_array.solve()
+    remove_element.solve()
 
     """Stack"""
     # baseball_game.solve()
@@ -129,7 +131,7 @@ if __name__ == '__main__':
     # fibonacci.solve()
     # nth_catalan.solve()
     # bell_number.solve()
-    longest_palindromic_substring.solve()
+    # longest_palindromic_substring.solve()
 
     """Implementation"""
     # taum_and_bday.solve()\
