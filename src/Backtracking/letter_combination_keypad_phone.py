@@ -1,29 +1,20 @@
 """
-Given an array Arr[] of size N, print all the subsets of the array.
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
 
-Subset: A subset of an array is a tuple that can be obtained from the array by removing some (possibly all) elements of
-it
+A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
-Input: N = 3, Arr = [1, 2, 3]
-Output: {}
-               {1}
-               {1, 2}
-               {1, 2, 3}
-               {1, 3}
-               {2}
-               {2, 3}
-               {3}
-Explanation: These are all the subsets that can be formed from the given array, it can be proven that no other subset
-exists other than the given output.
+Example 1:
 
+Input: digits = "23"
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+Example 2:
 
-Input: N = 2, Arr = [2, 4]
-Output: {}
-               {2}
-               {2, 4}
-               {4}
-Explanation: These are all the subsets that can be formed from the given array, it can be proven that no other subset
-exists other than the given output.
+Input: digits = ""
+Output: []
+Example 3:
+
+Input: digits = "2"
+Output: ["a","b","c"]
 """
 from src.res.Backtracking.letter_combination_keypad_phone import input as ip, output as op
 import validator

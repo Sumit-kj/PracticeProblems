@@ -5,7 +5,7 @@ Total Problems Solved:
 | Topic            | Number of Problems |
 |------------------|--------------------|
 | Array            | 18                 |
-| Backtracking     | 2                  |
+| Backtracking     | 3                  |
 | DP               | 10                 |
 | Greedy           | 7                  |
 | Implementation   | 2                  |
@@ -14,4 +14,4 @@ Total Problems Solved:
 | Practice.Trees   | 13                 |
 | Stack            | 5                  |
 | String           | 1                  |
-| **Total**        | **66**             |
+| **Total**        | **67**             |
