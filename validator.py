@@ -24,4 +24,8 @@ def are_two_arrays_same(arr_1, arr_2):
             if el_1 != el_2:
                 return False
 
+        else:
+            if el_1 != el_2:
+                return False
+
     return True

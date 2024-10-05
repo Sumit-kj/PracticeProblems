@@ -59,6 +59,7 @@ from src.Stack import daily_temperatures
 from src.Stack import min_stack_implementation
 from src.String import largest_substring_non_repeating
 from src.Backtracking import all_possible_subsets
+from src.Backtracking import letter_combination_keypad_phone
 
 if __name__ == '__main__':
     """Array"""
@@ -80,6 +81,10 @@ if __name__ == '__main__':
     # container_with_most_water.solve()
     # search_sorted_2d_array.solve()
     # remove_element.solve()
+
+    """Backtracking"""
+    # all_possible_subsets.solve()
+    letter_combination_keypad_phone.solve()
 
     """Stack"""
     # baseball_game.solve()
@@ -104,9 +109,6 @@ if __name__ == '__main__':
     # minimum_absolute_difference.solve()
     # marc_cakewalk.solve()
     # grid_challenge.solve()
-
-    """Backtracking"""
-    all_possible_subsets.solve()
 
     """Miscellaneous"""
     # number_of_islands.solve()
