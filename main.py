@@ -61,6 +61,7 @@ from src.String import largest_substring_non_repeating
 from src.Backtracking import all_possible_subsets
 from src.Backtracking import letter_combination_keypad_phone
 from src.Backtracking import combinations
+from src.Practice.Recursion import factorial
 
 if __name__ == '__main__':
     """Array"""
@@ -86,7 +87,7 @@ if __name__ == '__main__':
     """Backtracking"""
     # all_possible_subsets.solve()
     # letter_combination_keypad_phone.solve()
-    combinations.solve()
+    # combinations.solve()
 
     """Stack"""
     # baseball_game.solve()
@@ -142,4 +143,7 @@ if __name__ == '__main__':
     # longest_palindromic_substring.solve()
 
     """Implementation"""
-    # taum_and_bday.solve()\
+    # taum_and_bday.solve()
+
+    """Recursion"""
+    factorial.solve()
