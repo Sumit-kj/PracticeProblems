@@ -11,10 +11,10 @@ def solve():
     """
     arr = ip.i_p
     results = []
+    fib_list = [-1] * (max(arr) + 1)
+    fib_list[0], fib_list[1] = 0, 1
 
     for n in arr:
-        fib_list = [-1] * (n + 1)
-        fib_list[0], fib_list[1] = 0, 1
         results.append(fibonacci(n, fib_list))
     print(results)
 
@@ -33,5 +33,5 @@ def fibonacci(n, fib_list):
     :return: The nth fibonacci number
     """
     if fib_list[n] == -1:
-        return fibonacci(n-1, fib_list) + fibonacci(n-2, fib_list)
+         fib_list[n] = fibonacci(n-1, fib_list) + fibonacci(n-2, fib_list)
     return fib_list[n]

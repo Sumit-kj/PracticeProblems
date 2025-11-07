@@ -137,7 +137,7 @@ if __name__ == '__main__':
     # minimum_cost_path.solve()
     # coin_change.solve()
     # rod_cutting.solve()
-    # fibonacci.solve()
+    fibonacci.solve()
     # nth_catalan.solve()
     # bell_number.solve()
     # longest_palindromic_substring.solve()
@@ -146,4 +146,4 @@ if __name__ == '__main__':
     # taum_and_bday.solve()
 
     """Recursion"""
-    factorial.solve()
+    # factorial.solve()
