@@ -1,67 +1,68 @@
 import os, os.path
 
-from src.Misc import running_median
-from src.Misc import minimum_average
-from src.Misc import array_pair
-from src.Greedy import activity_selection
-from src.Greedy import kruskals_mst
-from src.Misc import number_of_islands
-from src.Greedy import minimum_number_of_coins
-from src.Greedy import minimum_number_of_platforms
-from src.Greedy import minimum_absolute_difference
-from src.Greedy import marc_cakewalk
-from src.Greedy import grid_challenge
-from src.Misc import trapping_rain_water
-from src.Practice.Sorting import merge_sort
-from src.Practice.Sorting import quick_sort
-from src.Practice.Trees import tree_creation
-from src.Practice.Trees import binary_tree_creation
-from src.Practice.Trees import bfs_traversal
-from src.Practice.Trees import dfs_traversal
-from src.Practice.Trees import preorder_traversal
-from src.Practice.Trees import inorder_traversal
-from src.Practice.Trees import postorder_traversal
-from src.Practice.Trees import binary_tree_diameter
-from src.Practice.Trees import binary_sum_tree
-from src.DynamicProgramming import longest_increasing_subsequence
-from src.DynamicProgramming import longest_common_subsequence
-from src.DynamicProgramming import edit_distance
-from src.DynamicProgramming import minimum_cost_path
-from src.DynamicProgramming import coin_change
-from src.DynamicProgramming import rod_cutting
-from src.DynamicProgramming import fibonacci
-from src.DynamicProgramming import nth_catalan
-from src.DynamicProgramming import bell_number
-from src.DynamicProgramming import longest_palindromic_substring
-from src.Implementation import taum_and_bday
-from src.Array import largest_three_distinct_elements
-from src.Array import second_largest_element
-from src.Array import move_zeroes_to_end
-from src.Array import even_position_greater_than_odd
-from src.Array import segregate_even_odd
-from src.Array import array_rotation_reversal_approach
-from src.Array import number_of_triangles
-from src.Array import one_occurrence_element
-from src.Array import leader_in_a_list
-from src.Array import subarray_with_given_sum
-from src.Array import reorganize_the_array
-from src.Array import rearrange_positive_negative
-from src.Array import valid_sudoku
-from src.Array import sorted_square_sorted
-from src.Array import three_sum_zero
-from src.Array import container_with_most_water
-from src.Array import search_sorted_2d_array
-from src.Array import remove_element
-from src.Stack import baseball_game
-from src.Stack import valid_parentheses
-from src.Stack import evaluate_reverse_polish_notation
-from src.Stack import daily_temperatures
-from src.Stack import min_stack_implementation
-from src.String import largest_substring_non_repeating
-from src.Backtracking import all_possible_subsets
-from src.Backtracking import letter_combination_keypad_phone
-from src.Backtracking import combinations
-from src.Practice.Recursion import factorial
+# from src.Misc import running_median
+# from src.Misc import minimum_average
+# from src.Misc import array_pair
+# from src.Greedy import activity_selection
+# from src.Greedy import kruskals_mst
+# from src.Misc import number_of_islands
+# from src.Greedy import minimum_number_of_coins
+# from src.Greedy import minimum_number_of_platforms
+# from src.Greedy import minimum_absolute_difference
+# from src.Greedy import marc_cakewalk
+# from src.Greedy import grid_challenge
+# from src.Misc import trapping_rain_water
+# from src.Practice.Sorting import merge_sort
+# from src.Practice.Sorting import quick_sort
+# from src.Practice.Trees import tree_creation
+# from src.Practice.Trees import binary_tree_creation
+# from src.Practice.Trees import bfs_traversal
+# from src.Practice.Trees import dfs_traversal
+# from src.Practice.Trees import preorder_traversal
+# from src.Practice.Trees import inorder_traversal
+# from src.Practice.Trees import postorder_traversal
+# from src.Practice.Trees import binary_tree_diameter
+# from src.Practice.Trees import binary_sum_tree
+# from src.DynamicProgramming import longest_increasing_subsequence
+# from src.DynamicProgramming import longest_common_subsequence
+# from src.DynamicProgramming import edit_distance
+# from src.DynamicProgramming import minimum_cost_path
+# from src.DynamicProgramming import coin_change
+# from src.DynamicProgramming import rod_cutting
+# from src.DynamicProgramming import fibonacci
+# from src.DynamicProgramming import nth_catalan
+# from src.DynamicProgramming import bell_number
+# from src.DynamicProgramming import longest_palindromic_substring
+# from src.Implementation import taum_and_bday
+# from src.Array import largest_three_distinct_elements
+# from src.Array import second_largest_element
+# from src.Array import move_zeroes_to_end
+# from src.Array import even_position_greater_than_odd
+# from src.Array import segregate_even_odd
+# from src.Array import array_rotation_reversal_approach
+# from src.Array import number_of_triangles
+# from src.Array import one_occurrence_element
+# from src.Array import leader_in_a_list
+# from src.Array import subarray_with_given_sum
+# from src.Array import reorganize_the_array
+# from src.Array import rearrange_positive_negative
+# from src.Array import valid_sudoku
+# from src.Array import sorted_square_sorted
+# from src.Array import three_sum_zero
+# from src.Array import container_with_most_water
+# from src.Array import search_sorted_2d_array
+# from src.Array import remove_element
+# from src.Stack import baseball_game
+# from src.Stack import valid_parentheses
+# from src.Stack import evaluate_reverse_polish_notation
+# from src.Stack import daily_temperatures
+# from src.Stack import min_stack_implementation
+# from src.String import largest_substring_non_repeating
+# from src.Backtracking import all_possible_subsets
+# from src.Backtracking import letter_combination_keypad_phone
+# from src.Backtracking import combinations
+# from src.Practice.Recursion import factorial
+from src.Practice.Recursion import fibonacci
 
 if __name__ == '__main__':
     """Array"""
@@ -137,7 +138,7 @@ if __name__ == '__main__':
     # minimum_cost_path.solve()
     # coin_change.solve()
     # rod_cutting.solve()
-    fibonacci.solve()
+    # fibonacci.solve()
     # nth_catalan.solve()
     # bell_number.solve()
     # longest_palindromic_substring.solve()
@@ -147,3 +148,4 @@ if __name__ == '__main__':
 
     """Recursion"""
     # factorial.solve()
+    fibonacci.solve()
