@@ -62,7 +62,8 @@ import os, os.path
 # from src.Backtracking import letter_combination_keypad_phone
 # from src.Backtracking import combinations
 # from src.Practice.Recursion import factorial
-from src.Practice.Recursion import fibonacci
+# from src.Practice.Recursion import fibonacci
+from src.DynamicProgramming import climbing_stairs
 
 if __name__ == '__main__':
     """Array"""
@@ -142,10 +143,11 @@ if __name__ == '__main__':
     # nth_catalan.solve()
     # bell_number.solve()
     # longest_palindromic_substring.solve()
+    climbing_stairs.solve()
 
     """Implementation"""
     # taum_and_bday.solve()
 
     """Recursion"""
     # factorial.solve()
-    fibonacci.solve()
+    # fibonacci.solve()
